@@ -1,0 +1,4 @@
+go get github.com/hashicorp/consul/api
+
+http://blog.libtorrent.org/2014/12/a-bittorrent-filesystem/
+go get github.com/boltdb/bolt/...
