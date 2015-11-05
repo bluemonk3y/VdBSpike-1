@@ -2,7 +2,8 @@ package main
 
 import (
 	"github.com/op/go-logging"
-	"github.com/bluemonk3y/VdBSpike-1"
+	"github.com/bluemonk3y/vdb"
+
 
 )
 
@@ -15,7 +16,7 @@ func main() {
 	// It will be created if it doesn't exist.
 	logger.Info("Opening Main")
 
-	var db = VDB{}
+	var db = vdb.VDB{}
 
 	db.Open("someDB")
 	db.WriteToBucket("bucket1", "key1", []byte("stuff"))
