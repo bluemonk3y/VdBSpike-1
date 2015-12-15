@@ -3,8 +3,6 @@ package main
 import (
 	"github.com/op/go-logging"
 	"github.com/bluemonk3y/vdb"
-
-
 )
 
 var logger = logging.MustGetLogger("vdb-test")
