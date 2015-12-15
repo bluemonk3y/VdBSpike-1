@@ -31,7 +31,6 @@ func main() {
 
 //	println("USers:" + users.)
 	for index, each := range users.Users {
-		println ("Index:" + index)
 		logger.Info("Iterate %i / %s", index, each)
 	}
 	logger.Info("Got Users: %s", users)
